@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body {
+    background-color: #ECF6FE;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    padding: 1vw 0;
+    margin: 0 3vw;
+}
+.syne-navdiv {
+    font-family: "Syne", serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    font-size: 2.625vw;
+    font-weight: 800;
+    color: #381664;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links li{
+    list-style-type: none;
+}
+li{
+    text-decoration: none;
+    color: #381664;
+    font-weight: 500;
+    font-size: 1.75vw;
+    margin-right: 1.875vw;
+}
+.line {
+    margin-top: -0.625vw;
+    height: 0.0625vw; 
+    background-color: #440A8F;
+}
+.main-content {
+    padding: 3vw;
+}
+.hero-section {
+    padding: 6vw 0;
+}
+.syne-header-text {
+    font-family: "Syne", serif;
+    font-size: 7.5vw;
+    font-weight: 700;
+    text-align: center;
+    color: #381664;
+    line-height: 7.5vw;
+}
+.main-image img{
+    border-radius: 3.5vw;
+    border: 0.0625vw solid #440A8F;
+    margin-top: 3vw;
+}
+.familjen-grotesk {
+    font-family: "Familjen Grotesk", sans-serif;
+}
+.syne {
+    font-family: "Syne", serif;
+}
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+}
+.domine {
+    font-family: "Domine", serif;
+}
+.plus-jakarta-sans {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.project-img img{
+    border: 0.0625vw solid #440A8F;
+}
+.text1 {
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    color: #381664;
+    margin-top: 0.3125vw;
+}
+.text2 {
+    font-size: 1.0625vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    color: #381664;
+    margin-top: -1.25vw;
+}
+.row {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+.project-img{
+    width: 31%;
+}
+.project-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.subscribe-section {
+    padding: 0 2.5vw;
+    text-align: center;
+}
+label {
+    font-size: 1.77vw;
+    font-weight: 700;
+    line-height: 2.08vw;
+    color: #381664;
+}
+#email {
+    margin-top: 2.08vw;
+    width: 100%;
+    max-width: 20.83vw;
+    height: 1.66vw; 
+    font-size: 1.04vw;
+    padding: 0.41vw 0.83vw;
+    border-radius: 0.41vw;
+    border: 0.052vw solid #440A8F;
+    margin-right: 0.41vw;
+}
+#subs {
+    height: 2.6vw;
+    background-color: #440A8F;
+    font-size: 1.04vw;
+    font-weight: 700;
+    color: #FCFAFF;
+    padding: 0.62vw 1.25vw;
+    border-radius: 0.41vw;
+    cursor: pointer;
+    border: none;
+}
+#subs:hover {
+    background-color: #220448;
+}
+.socials {
+    margin-top: 2.08vw;
+}
+#fb, #insta, #X {
+    margin-right: 1.66vw;
+}
+.contact-form-section {
+    margin: 5.2vw;
+    padding: 0 2.5vw;
+    text-align: center;
+}
+.text1-form {
+    font-size: 1.77vw;
+    font-weight: 700;
+    line-height: 2.08vw;
+    text-align: center;
+    color: #440A8F;
+}
+.text2-form {
+    margin-top: -1.04vw;
+    font-size: 1.04vw;
+    font-weight: 400;
+    line-height: 1.25vw;
+    text-align: center;
+    color: #440A8F;
+}
+.contact-form {
+    width: 100%;
+    padding: 1.04vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.83vw;
+    justify-content: center;
+    align-items: center;
+}
+.form-group {
+    display: flex;
+    gap: 0.52vw;
+}
+.input-field {
+    border: 0.052vw solid #440A8F;
+    border-radius: 1.14vw;
+    padding: 0.62vw;
+    font-size: 0.78vw;
+    font-weight: 400;
+}
+.email {
+    width: 37.24vw;
+    height: 1.66vw;
+    min-height: 1.66vw;
+}
+.textarea {
+    width: 37.24vw;
+    height: 5.2vw;
+    min-height: 6.45vw;
+}
+.name-input {
+    width: 17.81vw;
+    height: 1.66vw;
+    min-height: 1.66vw;
+}
+.submit-button {
+     
+    border-radius: 1.14vw;
+    padding: 0.41vw 1vw;
+    background-color: #440A8F;
+    color: #FCFAFF;
+    font-weight: 700;
+    font-size: 0.8vw;
+    margin-left: -34.37vw;
+}
+.line2 {
+    margin-top: -3.9vw;
+    height: 0.0625vw; 
+    background-color: #440A8F;
+}
+footer {
+    display: flex;
+    margin: 0 2.5vw;
+    padding: 1.25vw 0;
+    justify-content: space-between;
+}
+footer p{
+    font-weight: 500;
+    font-size: 1.45vw;
+    line-height: 1.66vw;
+    color: #381664;
+}
+#butt {
+    border-radius: 0.41vw;
+    border: 0.052vw solid #440A8F;
+    padding: 0.62vw 1.25vw;
+    height: 2.5vw;
+    background-color: transparent;
+    margin-top: 1.04vw;
+    color: #381664;
+}

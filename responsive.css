@@ -1,0 +1,396 @@
+@media (max-width:450px) {
+ 
+.logo{ 
+    font-size: 3vw; 
+} 
+li{ 
+    font-size: 2.75vw;
+    margin-right: 1.875vw;
+}  
+ 
+.project-img img{
+    border: 0.0625vw solid #440A8F;
+}
+.text1 {
+    font-size: 3.25vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    color: #381664;
+    margin-top: 1vw;
+}
+.text2 {
+    font-size: 2.0625vw;
+    font-weight: 400;
+    line-height: 2vw;
+    color: #381664;
+    margin-top: -1.25vw;
+} 
+.row { 
+    width: 100%; 
+    gap: 12vw; 
+}
+.project-img{
+    width: 98%;
+    height: 60vw;
+}
+.subscribe-section {
+    margin-top: 21vw;
+    display: flex;
+    flex-direction: column;
+}
+.syne1{
+    font-size: 5.6vw;
+}
+#email {
+    margin-top: 2.6vw;
+    width: 100%;
+    max-width: 24.83vw;
+    height: 3.66vw; 
+    font-size: 2.04vw;
+    padding: 0.41vw 1.83vw;
+
+    border-radius: 0.41vw;
+    border: 0.052vw solid #440A8F;
+    margin-right: 0.41vw;
+}
+#subs {
+    height: 3.66vw; 
+    font-size: 2.04vw; 
+    padding: 1vw 2vw;
+ 
+    padding-bottom: 4vw;
+}
+#subs:hover {
+    background-color: #220448;
+}
+.socials {
+    display: flex;
+    gap: 1vw;
+    margin-top: 3.08vw;
+    justify-content: center;
+}
+#fb, #insta, #X {
+
+    width: 4vw;
+}
+.text-content p{
+    font-size: 2.5vw;
+}
+
+.contact-form-section {
+    margin: 5.2vw;
+    padding: 0 2.5vw;
+    text-align: center;
+}
+.text1-form {
+    font-size: 1.77vw;
+    font-weight: 700;
+    line-height: 2.08vw;
+    text-align: center;
+    color: #440A8F;
+}
+.text2-form {
+    margin-top: -1.04vw;
+    font-size: 1.04vw;
+    font-weight: 400;
+    line-height: 1.25vw;
+    text-align: center;
+    color: #440A8F;
+}
+.contact-form {
+    width: 100%;
+    padding: 1.04vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.83vw;
+    justify-content: center;
+    align-items: center;
+}
+.form-group { 
+    display: flex;
+    gap: 0.52vw;
+}
+#first-name{
+    width: 30vw;
+    height: 2.5vw;
+    font-size: 2vw;
+    padding: 1vw 2vw;
+}
+#last-name{
+    width: 30vw;
+    height: 2.5vw;
+    font-size: 2vw;
+    padding: 1vw 2vw;
+}
+#contact-email{
+    width: 64vw;
+    height: 2.5vw;
+    font-size: 2vw;
+    padding: 1vw 2vw;
+}
+#message{
+    width: 64vw; 
+    height: 8vw;
+    font-size: 2vw;
+    padding: 1vw 2vw;
+}
+#submit{
+    width: 18vw;
+    height: 6vw;
+    font-size: 2.8vw;
+    margin-right: 15vw;
+    padding-bottom: 1.5vw;
+    margin-top: 1.5vw;
+    
+}
+.input-field {
+    border: 0.052vw solid #440A8F;
+    border-radius: 1.14vw;
+    padding: 0.62vw;
+    font-size: 0.78vw;
+    font-weight: 400;
+}
+.email {
+    width: 37.24vw;
+    height: 1.66vw;
+    min-height: 1.66vw;
+}
+.textarea {
+    width: 37.24vw;
+    height: 5.2vw;
+    min-height: 6.45vw;
+}
+.name-input {
+    width: 17.81vw;
+    height: 1.66vw;
+    min-height: 1.66vw;
+}
+ 
+.line2 {
+    margin-top: -3.9vw;
+    height: 0.0625vw; 
+    background-color: #440A8F;
+}
+footer {
+    display: flex;
+    margin: 0 2.5vw;
+    padding: 1.25vw 0;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    font-weight: 500;
+    font-size: 1.45vw;
+    line-height: 1.66vw;
+    color: #381664;
+}
+#butt {
+    border-radius: 0.41vw;
+    border: none;
+    padding: 0.62vw 4vw;
+    height: 2.5vw;
+    background-color: transparent;
+   margin-top: -4vw;
+    color: #381664;
+    font-size: 2vw;
+}
+.syne2{
+    font-size: 4vw;
+}
+
+}
+
+@media (min-width:450px) and (max-width:810px){
+ 
+    .logo{ 
+        font-size: 3vw; 
+    } 
+    li{ 
+        font-size: 2.75vw;
+        margin-right: 1.875vw;
+    }  
+     
+    .project-img img{
+        border: 0.0625vw solid #440A8F;
+    }
+    .text1 {
+        font-size: 3.25vw;
+        font-weight: 400;
+        line-height: 1.5vw;
+        color: #381664;
+        margin-top: 1vw;
+    }
+    .text2 {
+        font-size: 2.0625vw;
+        font-weight: 400;
+        line-height: 2vw;
+        color: #381664;
+        margin-top: -1.25vw;
+    } 
+    .row { 
+        width: 100%; 
+        gap: 3vw; 
+    }
+    .project-img{
+        width: 48%;
+        height: auto;
+    }
+    .subscribe-section {
+        margin-top: 21vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .syne1{
+        font-size: 5.6vw;
+    }
+    #email {
+        margin-top: 2.6vw;
+        width: 100%;
+        max-width: 24.83vw;
+        height: 3.66vw; 
+        font-size: 2.04vw;
+        padding: 0.41vw 1.83vw;
+    
+        border-radius: 0.41vw;
+        border: 0.052vw solid #440A8F;
+        margin-right: 0.41vw;
+    }
+    #subs {
+        height: 3.66vw; 
+        font-size: 2.04vw; 
+        padding: 1vw 2vw;
+     
+        padding-bottom: 4vw;
+    }
+    #subs:hover {
+        background-color: #220448;
+    }
+    .socials {
+        display: flex;
+        gap: 1vw;
+        margin-top: 3.08vw;
+        justify-content: center;
+    }
+    #fb, #insta, #X {
+        width: 5vw;
+    }
+    .text-content p{
+        font-size: 2.5vw;
+    }
+    
+    .contact-form-section {
+        margin: 5.2vw;
+        padding: 0 2.5vw;
+        text-align: center;
+    }
+    .text1-form {
+        font-size: 1.77vw;
+        font-weight: 700;
+        line-height: 2.08vw;
+        text-align: center;
+        color: #440A8F;
+    }
+    .text2-form {
+        margin-top: -1.04vw;
+        font-size: 1.04vw;
+        font-weight: 400;
+        line-height: 1.25vw;
+        text-align: center;
+        color: #440A8F;
+    }
+    .contact-form {
+        width: 100%;
+        padding: 1.04vw;
+        display: flex;
+        flex-direction: column;
+        gap: 0.83vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-group { 
+        display: flex;
+        gap: 0.52vw;
+    }
+    #first-name{
+        width: 29vw;
+        height: 2.5vw;
+        font-size: 2vw;
+        padding: 1vw 2vw;
+    }
+    #last-name{
+        width: 29vw;
+        height: 2.5vw;
+        font-size: 2vw;
+        padding: 1vw 2vw;
+    }
+    #contact-email{
+        width: 62vw;
+        height: 2.5vw;
+        font-size: 2vw;
+        padding: 1vw 2vw;
+    }
+    #message{
+        width: 62vw; 
+        height: 8vw;
+        font-size: 2vw;
+        padding: 1vw 2vw;
+    }
+    #submit{
+        width: 18vw;
+        height: 6vw;
+        font-size: 2.8vw;
+        margin-right: 15vw;
+        padding-bottom: 1.5vw;
+        margin-top: 1.5vw;
+        
+    }
+    .input-field {
+        border: 0.052vw solid #440A8F;
+        border-radius: 1.14vw;
+        padding: 0.62vw;
+        font-size: 0.78vw;
+        font-weight: 400;
+    }
+    .email {
+        width: 37.24vw;
+        height: 1.66vw;
+        min-height: 1.66vw;
+    }
+    .textarea {
+        width: 37.24vw;
+        height: 5.2vw;
+        min-height: 6.45vw;
+    }
+    .name-input {
+        width: 17.81vw;
+        height: 1.66vw;
+        min-height: 1.66vw;
+    }
+     
+    .line2 {
+        margin-top: -3.9vw;
+        height: 0.0625vw; 
+        background-color: #440A8F;
+    }
+    footer {
+        display: flex;
+        margin: 0 2.5vw;
+        padding: 1.25vw 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer p{
+        font-weight: 500;
+        font-size: 1.45vw;
+        line-height: 1.66vw;
+        color: #381664;
+    }
+    #butt {
+        border: 1px solid black;
+        padding-bottom: 4vw;
+    }
+    .syne2{
+        font-size: 4vw;
+    }
+    
+    }
